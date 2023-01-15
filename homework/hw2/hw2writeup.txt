@@ -1,0 +1,3 @@
+Homework 2.2 Nth_element vs Partial Sort vs Sort
+
+My educated guess would be that nth_element, partial sort, and sort in that order go from most efficient to least efficient. For nth element it only needs to compare until it gets a number in the middle where all elements on one side are smaller and all elements on the other side are large. Partial sort needs to do the same thing, but then once it gets that it still needs to sort all the numbers that are smaller than the nth number. Sort obviously needs to do the same at nth element but then in addition sort both all the smaller numbers and larger numbers as well so it will have to make the most compares.
