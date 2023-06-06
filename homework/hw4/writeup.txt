@@ -1,0 +1,20 @@
+4.2
+For each implementation I had the following results
+
+In Matrix.cpp
+Specialization: 7.2
+No Specialization: 15.9
+
+In OverloadMatrix.cpp
+Overloading: 8.7
+No Overloading: 17.8
+
+In PSMatrix.cpp
+Partial Specialization: 6.7 seconds
+
+In each case having a direct method for 2x2 matrices to calculate determinants saved time. It seems having a direct method can be really useful in a case like this when calculations can be simplified.
+
+
+4.3
+
+The problem is the functor is being passed by value so foreach is making a copy. A simple solution would be to use std::ref or alternatively foreach will return a functor with the given state and that can be assigned to a new variable. Both solutions are implemented

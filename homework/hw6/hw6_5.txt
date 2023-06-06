@@ -1,0 +1,1 @@
+On both hands, in binary, assuming you have 10 fingers you can count to 2 to the 10th power minus 1 or 1023.

@@ -1,0 +1,1 @@
+Between const X and X const I believe the first option is better since it makes "const" more obvious improving the readability of the code.

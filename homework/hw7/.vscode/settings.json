@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "__locale": "cpp",
+    "atomic": "cpp",
+    "bitset": "cpp",
+    "exception": "cpp",
+    "iterator": "cpp",
+    "string": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "locale": "cpp",
+    "memory": "cpp",
+    "mutex": "cpp",
+    "ostream": "cpp",
+    "streambuf": "cpp",
+    "type_traits": "cpp",
+    "stdexcept": "cpp",
+    "utility": "cpp",
+    "future": "cpp",
+    "__mutex_base": "cpp",
+    "condition_variable": "cpp"
+  }
+}
